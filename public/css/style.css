@@ -38,12 +38,12 @@
 .message {
   word-wrap: break-word;
   border-top: 1px solid #eee;
-  padding: 6px 0 6px 0;
+  padding:6px 4px;
 }
 
 #dropdown-buffers {
   margin-left: 32px;
-}   
+}
 
 #total-activity {
   position: absolute;
@@ -96,3 +96,9 @@
   float: left;
   width: 70px;
 }
+
+body {
+  font-family: monospace; }
+
+.label, .badge {
+  font-size:14px; text-shadow:none; background:transparent; }
